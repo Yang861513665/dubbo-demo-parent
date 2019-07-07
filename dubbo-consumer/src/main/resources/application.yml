@@ -1,0 +1,10 @@
+server:
+  port: 8080
+dubbo:
+  application:
+    id: dubbo-consumer
+    name: dubbo-consumer
+  registry:
+    address: zookeeper://119.23.57.79:2181
+  consumer:
+    check: false

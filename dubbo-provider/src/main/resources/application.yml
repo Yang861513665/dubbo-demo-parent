@@ -1,0 +1,12 @@
+server:
+  port: 8001
+dubbo:
+  application:
+    id: dubbo-provider
+    name: dubbo-provider
+  registry:
+    address: zookeeper://119.23.57.79:2181
+  server: true
+  protocol:
+    name: dubbo
+    port: 20880
